@@ -1,0 +1,5 @@
+#basic syntax
+scp [options] username@source_host:directory1/filename1 username2@destination_host:directory2/filename2
+
+#example snytax 
+scp home/user/clay/sample_test.csv user_clay@thedestinationserver:/san/public/marketingteam/customers/
