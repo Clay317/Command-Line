@@ -1,0 +1,5 @@
+#push to location
+rsync -arzvP --progress <folder on current server> <remote server name>:<destination location on remote server>
+
+#syncs file/directory into new directory
+rsync -zvh <file name> <destination location on current server>
