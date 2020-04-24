@@ -1,0 +1,15 @@
+git branch taco-party
+
+git checkout taco-party
+
+git diff
+
+git stash save "Worked on taco function"
+
+git stash list
+
+git stash apply stash@{0}
+
+git stash pop #grabs first stash in list
+
+git stash clear #removes all of stashes
