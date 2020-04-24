@@ -1,0 +1,39 @@
+#set variables
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@email.com"
+
+git config --list
+
+git config --help
+
+git init #intitialize git 
+
+git status
+
+#Add gitignore files. Git will ignore any files listed within this file. We can also use wildcards, so *.py to ignore python files.
+touch .gitignore
+
+#Add everything to staging
+git add -A
+
+git commit -m "Initial Commit"
+
+#If we want to move from staging to working directory
+git reset
+
+git clone <url> <where to clone> 
+
+git pull origin master
+
+git push origin master
+
+#Merge to master
+git checkout master
+
+git pull origin master
+
+git branch --merged #View what has been merged.
+
+git merge jd-working
+
+git push origin master
